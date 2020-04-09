@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: rebeccapurple;
+  padding: 10px 0;
+  color: white;
+  margin-top: 18px;
+  font-weight: bold;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 200px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
